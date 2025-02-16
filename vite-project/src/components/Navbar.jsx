@@ -26,7 +26,7 @@ export default function Navbar() {
             onClick={() => setOpenMenu(false)}
           >
             <li>
-              <a href="#main">Главное</a>
+              <a href="#about">Обо мне</a>
             </li>
             <li>
               <a href="#experience">Скилы</a>

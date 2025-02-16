@@ -30,10 +30,6 @@ export const skills = [
     title: "TailwindCSS",
     imageSrc: tailwind,
   },
-  {
-    title: "Node",
-    imageSrc: node,
-  },
  
   {
     title: "Figma",
