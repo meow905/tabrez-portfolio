@@ -11,7 +11,7 @@ export default function About() {
     link.href = "/myCV.docx";
     link.setAttribute("download", "myCV.docx");
     document.body.appendChild(link);
-    window.location.href = "http://localhost:5173/tabrez-portfolio/myCV.docx";
+    link.click()
     document.body.removeChild(link);
   };
   const [border, setBorder] =useState(false)
@@ -20,7 +20,7 @@ export default function About() {
       <div className="about__content">
         <img src={hero} alt="heroImg" className="about__img " />
         <div className="about__title">
-          <h2>About</h2>
+          <h2>Обо мне</h2>
           <Disclosure>
             <p>
               <DisclosureButton
