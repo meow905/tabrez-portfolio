@@ -5,7 +5,7 @@ export default function Experience() {
     return (
       <section className="experience__container" id="experience">
         <div className=".experience__content">
-          <h2 className="experience__title">Скилы</h2>
+          <h2 className="experience__title">Skills</h2>
 
           <div className="experience__skills">
             {skills.map((skill) => {

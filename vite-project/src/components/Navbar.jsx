@@ -26,16 +26,16 @@ export default function Navbar() {
             onClick={() => setOpenMenu(false)}
           >
             <li>
-              <a href="#about">Обо мне</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#experience">Скилы</a>
+              <a href="#experience">Skills</a>
             </li>
             <li>
-              <a href="#projects">Проекты</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Контакты</a>
+              <a href="#contact">Contacts</a>
             </li>
           </ul>
         </div>

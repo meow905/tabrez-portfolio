@@ -40,15 +40,13 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Доставка еды",
+    title: "Food delivery website",
     imageSrc: internetShop,
-    description: "Сайт по доставке фастфуда",
     demo: "https://internet-shop-weld.vercel.app/",
   },
   {
-    title: "Веб-магазин",
+    title: "Web store of various goods",
     imageSrc: promoWorld,
-    description: "Сайт с многообразной продукцией",
     demo: "https://promo-world.vercel.app/",
   },
 ];

@@ -552,6 +552,7 @@ html {
 }
 
 .project-title {
+  text-align: center;
   font-size: 25px;
   font-weight: 700;
 }
@@ -642,6 +643,7 @@ html {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 10px;
 }
 
 .contact__text h2 {

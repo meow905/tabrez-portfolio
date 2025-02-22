@@ -6,8 +6,8 @@ export default function Contact() {
     return (
       <footer className="contact__container" id="contact">
         <div className="contact__text">
-          <h2>Контакты</h2>
-          <p>Свяжись со мной</p>
+          <h2>Contacts</h2>
+          <p>Get in touch with me</p>
         </div>
         <ul className="contact__links">
           <li className="contact__link">

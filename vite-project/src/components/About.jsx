@@ -6,38 +6,36 @@ import {
 import hero from "../assets/hero.jpg";
 import { useState } from "react";
 export default function About() {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/myCV.docx";
-    link.setAttribute("download", "myCV.docx");
-    document.body.appendChild(link);
-    link.click()
-    document.body.removeChild(link);
-  };
+  
   const [border, setBorder] =useState(false)
   return (
     <section className="about__container" id="about">
       <div className="about__content">
         <img src={hero} alt="heroImg" className="about__img " />
         <div className="about__title">
-          <h2>Обо мне</h2>
+          <h2>About me</h2>
           <Disclosure>
             <p>
               <DisclosureButton
                 className={border ? "about__title3" : "about__title2"}
-                onClick={()=> setBorder(!border)}
+                onClick={() => setBorder(!border)}
               >
-                Работаю на данный момент в Илмхоне в качестве инструктора по
-                HTML & CSS а также JS,
+                I am currently working in Ilmkhon as an instructor in HTML & CSS
+                and JS
               </DisclosureButton>
               <DisclosurePanel>
-                мечтаю реализоваться как крутой front dev. Больше информации вы
-                можете получить нажав на кнопку и скачав CV
+                I dream of realizing myself as a cool front dev. You can get
+                more information by clicking on the button and downloading the
+                CV
               </DisclosurePanel>
             </p>
           </Disclosure>
-          <a className="hero__contactBtn" onClick={handleDownload}>
-            Скачать CV
+          <a
+            target="_blank"
+            className="hero__contactBtn"
+            href="https://docs.google.com/document/d/19lgfGhmgXSj_Lxu11AYXSzelmz9Yw58-/edit?usp=sharing&ouid=117973416944816228631&rtpof=true&sd=true"
+          >
+            Download CV
           </a>
         </div>
       </div>
