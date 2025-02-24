@@ -7,17 +7,25 @@ export default function Projects() {
             <div className="projects">
                 {projects.map((project)=> {
                     return (
-                        <div className="project-container" key={project.title}>
-                            <img src={project.imageSrc} className="project-img" alt="project" />
-                            <h3 className="project-title">{project.title}</h3>
-                         
-                            
-                            <div className="project-links">
-                                
-                                <a target="_blank" href={project.demo} className="project-link">Посмотреть</a>
-                            </div>
+                      <div className="project-container" key={project.title}>
+                        <img
+                          src={project.imageSrc}
+                          className="project-img"
+                          alt="project"
+                        />
+                        <h3 className="project-title">{project.title}</h3>
+
+                        <div className="project-links">
+                          <a
+                            target="_blank"
+                            href={project.demo}
+                            className="project-link"
+                          >
+                            Preview
+                          </a>
                         </div>
-                    )
+                      </div>
+                    );
                 })}
             </div>
         </section>
