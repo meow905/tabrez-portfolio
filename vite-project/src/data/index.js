@@ -1,12 +1,12 @@
 import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.png";
 import react from "../assets/skills/react.png";
-import node from "../assets/skills/node.png";
 import figma from "../assets/skills/figma.png";
 import tailwind from "../assets/skills/Tailwind_CSS_Logo.svg.png";
 import nextJS from "../assets/skills/nextjs-icon-svgrepo-com.svg";
 import internetShop from "../assets/internetShop.png"
 import promoWorld from "../assets/promoWorld.png"
+import movieTicket from "../assets/movie-site.png"
 
 
 export const skills = [
@@ -48,5 +48,10 @@ export const projects = [
     title: "Web store of various goods",
     imageSrc: promoWorld,
     demo: "https://promo-world.vercel.app/",
+  },
+  {
+    title: "Movie Ticket Booking Site",
+    imageSrc: movieTicket,
+    demo: "https://movie-tamosho.vercel.app/",
   },
 ];
